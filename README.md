@@ -1,4 +1,4 @@
-# TIG-Stack macOS
+# TIG Stack on macOS
 
 This repository uses docker-compose (Docker must be pre-installed on your machine) to set up a local Telegraf, InfluxDB and Grafana stack (known as TIG stack).
 
