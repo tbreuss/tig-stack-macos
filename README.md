@@ -2,7 +2,7 @@
 
 This repository uses docker-compose (Docker must be pre-installed on your machine) to set up a local Telegraf, InfluxDB and Grafana stack (known as TIG stack).
 
-You can use this repository to collect system data with Telegraf, store it in InfluxDB and create a diagram in Grafana.
+You can use this repository to collect system data with Telegraf, store it in InfluxDB and create diagrams in Grafana.
 
 ## Installation
 
