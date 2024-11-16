@@ -4,13 +4,7 @@ This repository uses docker-compose (Docker must be pre-installed on your machin
 
 You can use this repository to collect system data with Telegraf, store it in InfluxDB and create a diagram in Grafana.
 
-Thanks to:
-
-- [Han Xiao](https://github.com/justlaputa/collectd-influxdb-grafana-docker)
-- [Cristian Perez Brokate](https://github.com/cristianpb/collectd-influxdb-grafana-docker)
-- [Claudio Proietti](https://github.com/H4M1O/mamo)
-
-# Installation
+## Installation
 
 Copy `.env.dist` to `.env`:
 
@@ -38,10 +32,17 @@ $ make start-dev
 
 Open Grafana web application <http://localhost:3000> and login with the credentials you setup in the `.env` file.
 
-# Removal
+## Removal
 
 Go inside the project folder and run:
 
 ```
 $ make remove
 ```
+
+## Thanks to
+
+- [Han Xiao](https://github.com/justlaputa/collectd-influxdb-grafana-docker)
+- [Cristian Perez Brokate](https://github.com/cristianpb/collectd-influxdb-grafana-docker)
+- [Claudio Proietti](https://github.com/H4M1O/mamo)
+- [Kamalashree Nagaraj](https://medium.com/@nagaraj.kamalashree/b989b2faf9f8)
