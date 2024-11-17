@@ -34,7 +34,9 @@ Open Grafana web application <http://localhost:3000> and login with the credenti
 
 Stop the application:
 
+```
 $ make stop
+```
 
 ## Uninstall
 
