@@ -32,9 +32,13 @@ $ make start-dev
 
 Open Grafana web application <http://localhost:3000> and login with the credentials you setup in the `.env` file.
 
-## Removal
+Stop the application:
 
-Go inside the project folder and run:
+$ make stop
+
+## Uninstall
+
+Go into the project folder and run:
 
 ```
 $ make remove
